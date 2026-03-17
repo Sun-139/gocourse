@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+var animeqoute string = "The Hope has Arrived !" // Global variable use anywhere through out the code.
+
+func main() {
+
+	anime := "My hero academiya" // local variable
+	fmt.Println(anime)           // using local variable
+
+	fmt.Println(animeqoute) // using the local variable
+}
